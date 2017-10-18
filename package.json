@@ -1,0 +1,28 @@
+{
+  "name": "kodilla-grunt-example",
+  "version": "1.0.0",
+  "description": "example grunt project",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-cisowska/furry-broccoli.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Joanna Cisowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-cisowska/furry-broccoli/issues"
+  },
+  "homepage": "https://github.com/j-cisowska/furry-broccoli#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autowatch": "^0.1.4",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-sass": "^2.0.0"
+  }
+}
