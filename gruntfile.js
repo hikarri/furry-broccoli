@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 	 watch: {
 		gruntfile: {
 			files: ['gruntfile.js'],
-			tasks: ['jshint:gruntfile'],
+			tasks: ['gruntfile'],
 		},
 		
 		src:  {
