@@ -4,7 +4,7 @@
   "description": "my example grunt project",
   "main": "index.js",
   "scripts": {
-    "test": "kodilla-test"
+    "test": "kodilla-test1"
   },
   "repository": {
     "type": "git",
