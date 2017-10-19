@@ -25,11 +25,14 @@ module.exports = function(grunt) {
   	},
 	
 	 watch: {
-		src:  {
-			files: ['css/**/*.scss']
+		scripts: {
+			files: ['sass/*.sass'],
 			tasks: ['sass'],
-		},
-	 },
+        options: {
+            spawn: false,
+        },
+    }
+}
 
 
   });
