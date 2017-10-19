@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/j-cisowska/furry-broccoli#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "grunt-autowatch": "^0.1.4",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-sass": "^2.0.0"
   }
 }
