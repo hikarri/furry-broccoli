@@ -25,9 +25,16 @@ module.exports = function(grunt) {
   	},
 	
 	 watch: {
-		files: ['**/*'],
-		tasks: ['jshint'],
-	},
+		gruntfile: {
+			files: ['gruntfile.js'],
+			tasks: ['jshint:gruntfile'],
+		},
+		
+		src:  {
+			files: ['css/**/*.scss']
+			tasks: ['sass'],
+		},
+	 },
 
 
   });
