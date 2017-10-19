@@ -24,22 +24,22 @@ module.exports = function(grunt) {
   		}
   	},
 	
-	 watch: {
-		scripts: {
-			files: ['index.hmtl', 'css/**/*.scss'],
-			tasks: ['default'],
-        options: {
-            spawn: false,
-        },
-    }
-}
-
+	watch: {
+		css: {
+			files: ['src/css/*.scss'],
+			tasks: ['sass:dev']
+		},
+		html: {
+			files: ['html/*.html'],
+			tasks: ['uglify:dev']
+		}
+	},
 
   });
   // Load the plugins tasks
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-autowatch');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
 
