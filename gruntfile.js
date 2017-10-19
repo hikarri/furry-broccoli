@@ -38,5 +38,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
 
-  grunt.registerTask('default', ['sass', 'imagemin', 'grunt-autowatch']);
+  grunt.registerTask('default', ['sass', 'imagemin', 'autowatch']);
 };
