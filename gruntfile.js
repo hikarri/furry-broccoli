@@ -25,11 +25,6 @@ module.exports = function(grunt) {
   	},
 	
 	 watch: {
-		gruntfile: {
-			files: 'gruntfile.js',
-			tasks: ['gruntfile'],
-		},
-		
 		src:  {
 			files: ['css/**/*.scss']
 			tasks: ['sass'],
