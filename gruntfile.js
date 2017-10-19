@@ -22,7 +22,12 @@ module.exports = function(grunt) {
   				dest: 'images/build/'
   			}]
   		}
-  	}
+  	},
+	
+	 watch: {
+		files: ['**/*'],
+		tasks: ['jshint'],
+	},
 
 
   });
